@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.cmn img {
+    height: 80px;
+}
+
+
+.image-one:hover {
+    color: rgb(38, 148, 38);
+    background-color: rgb(188, 255, 188);
+}
+
+.image-two:hover {
+    color: pink;
+    background-color: palevioletred;
+}
+
+.image-three:hover {
+    color: #3939db;
+    background-color: rgb(151, 151, 241);
+}
+
+.image-four:hover{
+    color: rgb(119, 119, 29);
+    background-color: rgb(233, 233, 137);
+}
+
+.image-five:hover {
+    color: blueviolet;
+    background-color: rgba(190, 136, 240, 0.541);
+}
+
+.cmn {
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+.template {
+    display: flex;
+    width: 61.5%;
+    transition: all 1s ease;
+}
+
+.right-side-text {
+    display: flex;
+    flex-direction: column;
+   padding: 5px;
+    justify-content: space-evenly;
+    font-size: 0.5rem;
+    height: 100%;
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+}
+
+
+.right-side-text h1:hover {
+    color: dodgerblue;
+
+}
+
+
+
+.template{
+    display: none;
+}
+.tools:hover .template{
+    display: flex;
+    transition: all 1s ease;
+}
