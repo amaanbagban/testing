@@ -1,81 +1,553 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coolers Clone</title>
+    <title>Pars Coder || Portfolio website</title>
     <link rel="stylesheet" href="style.css">
+    <!-- boxicon css link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
 </head>
-
 <body>
+    <div class="overlay"></div>
     <header>
-        <div class="tools">
-            <h1>Tools</h1>
-       
-       
-        <div class="template">
-            <div class="left-side">
-                <div class="image-one cmn">
-                    <img src="https://coolors.co/assets/img/menu_icon_generate.svg" alt="">
-                    <div class="Text-Container1">
-                        <h1>Palette Generator</h1>
-                        <p>Create Your Palette in seconds</p>
-                    </div>
-
-                </div>
-                <div class="image-two cmn">
-                    <img src="https://coolors.co/assets/img/menu_icon_explore.svg" alt="">
-                    <div class="text-container2 text-cnm">
-                        <h1>Explore Palette</h1>
-                        <p>Browse miliions of trending color schemes</p>
-                    </div>
-                </div>
-                <div class="image-three cmn">
-                    <img src="https://coolors.co/assets/img/menu_icon_image_picker.svg" alt="">
-                    <div class="text-container3">
-                        <h1>Image Picker</h1>
-                        <p>Get beautifull palettes from your photos</p>
-                    </div>
-                </div>
-                <div class="image-four cmn">
-                    <img src="https://coolors.co/assets/img/menu_icon_contrast_checker.svg" alt="">
-                    <div class="text-container4 text-cnm">
-                        <h1>Contrast Checker</h1>
-                        <p>Check the contrast between two colors</p>
-                    </div>
-                </div>
-                <div class="image-five cmn">
-                    <img src="https://coolors.co/assets/img/menu_icon_visualizer.svg" alt="">
-                    <div class="text-container5 text-cnm">
-                        <h1>Palette Visulizers</h1>
-                        <p>Preview your colors on real design</p>
-                    </div>
-                </div>
+        <a href="#" class="logo"><span>A</span>maan</a>
+        <ul class="navlist">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="right-header">
+            <a href="https://wa.me/9313665626?text=" class="btn">Let's chat<i class='bx bx-message-dots' ></i></a>
+            <div class="menu-icon">
+                <div class="bar"></div>
             </div>
-            <div class="right-side">
-                <div class="right-side-text">
-                    <h1>List of Colors</h1>
-                    <h1>    Browse Gradients</h1>
-                    <h1>Create a Gradient</h1>
-                    <h1>Make a Gradient Palette</h1>
-                    <h1>Color Picker</h1>
-                    <h1>Collge maker</h1>
-                    <h1>List of fonts</h1>
-                    <h1>Image converter</h1>
-                    <h1>APPS</h1>
-                    <h1>IOS Apps</h1>
-                    <h1>Android Apps</h1>
-                    <h1>Figma Plug</h1>
-                    <h1>Adobe Extension</h1>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="hero-info">
+            <h3>Welcome To my World Baby</h3>
+            <h1>Hi, My Name is Amaan</h1>
+
+            <div class="text-animate">
+                <h2>Frontend Developer</h2>
+            </div>
+
+            <p>Are you a keyboard? Because you’re my type.
+            </p>
+
+            <div class="btn-box">
+                <a href="mailto:richard@mail.com" class="btn">Drop your review here ! <i class='bx bx-right-arrow-alt' ></i></a>
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+
+            <div class="social-media">
+                <div class="bg-icon">
+                    <a href="https://www.instagram.com/bagban_amaan_?igsh=N3ZsYzV6b2txcmR3&utm_source=qr" target="_blank"><i class='bx bxl-instagram'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="#" target="_blank"><i class='bx bxl-github'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="https://www.linkedin.com/in/amaan-b-860941126?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><i class='bx bxl-twitter'></i></a>
+                    <span></span>
+                </div>
+
+                <div class="bg-icon">
+                    <a href="#" target="_blank"><i class='bx bxl-facebook'></i></a>
+                    <span></span>
                 </div>
             </div>
         </div>
+        <div class="img-hero">
+            <img src="https://avatars.githubusercontent.com/u/61883804?v=4" alt="">
+            <div class="rotate-text">
+                <div class="text">
+                    <p>Make it work, make it right, make it fast.
+                    </p>
+                </div>
+                <span><i></i></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/aboutMe.png" alt="" class="aboutHero">
+        </div>
+        <div class="showcase-ring">
+            <!-- <img src="https://zezosoft.com/assets/img/port-img-31/hero-right.png" class="ring"> -->
+            <img src="https://avatars.githubusercontent.com/u/9460130?v=4" class="circle">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About Me</h2>
+            <h3>The only true limitation is the one you set for yourself.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint voluptatem autem ex in. Temporibus et maiores ipsum recusandae voluptas consequatur!</p>
+            <div class="about-btn">
+                <button class="active">Main Skills</button>
+                <button>Awards</button>
+                <button>Education</button>
+            </div>
+            <div class="content-btn">
+                <div class="content">
+                    <div class="text-box">
+                    <p>User Experience Design - UI / UX</p>
+                    <span>Delight the user and make it work.</span>
+                </div>
+                <div class="text-box">
+                    <p>Web & User Interface Design - Development</p>
+                    <span>Website , Web Experience , ...</span>
+                </div>
+                <div class="text-box">
+                    <p>Interaction Desing - Animation</p>
+                    <span>I Like to move it move it</span>
+                </div>
+                </div>
+
+                <div class="content">
+                    <div class="text-box">
+                    <p>Web Design Award</p>
+                    <span>Not received yet😢</span>
+                </div>
+                <div class="text-box">
+                    <p>Code and Development Award</p>
+                    <span>Not received yet😢</span>
+                </div>
+                <div class="text-box">
+                    <p>Hackathons and coding Competiotions</p>
+                    <span>Not received yet😢</span>
+                </div>
+                </div>
+
+
+                <div class="content">
+                    <div class="text-box">
+                    <p>Online Courses and Bootcamps</p>
+                    <span>Delight the user and make it work.</span>
+                </div>
+                <div class="text-box">
+                    <p>Internships and Work Experience</p>
+                    <span>Website , Web Experience , ...</span>
+                </div>
+                <div class="text-box">
+                    <p>Bachelor's Degree in Commerce</p>
+                    <span>I Like to move it move it</span>
+                </div>
+                </div>
+            </div>
+            <div class="cvContent">
+                <a href="img/resume.pdf" target="_blank" class="btn d-CV">Download CV <i class='bx bx-download'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="main-text">
+            <h2 class="heading">My Services</h2>
+            <span>what i will do for you</span>
+        </div>
+
+        <div class="allServices">
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-layer' ></i>
+                    <span></span>
+                </div>
+                <h3>App Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-code-alt' ></i>
+                    <span></span>
+                </div>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bx-desktop' ></i>
+                    <span></span>
+                </div>
+                <h3>UI / UX Design</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+
+            <div class="servicesItem">
+                <div class="icon-services">
+                    <i class='bx bxs-party' ></i>
+                    <span></span>
+                </div>
+                <h3>Digital Marketing</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure inventore ea nemo ab recusandae modi voluptates maxime ipsam eveniet. Facilis.</p>
+                <a href="#" class="readMore">Read More</a>
+            </div>
+        </div>
+
+        <div class="proposal">
+            <div class="text-box">
+                <span>Get It Touch</span>
+                <h3>Have a Project On Your Mind</h3>
+                <a href="#contact" class="btn">Contact Me</a>
+            </div>
+            <img src="https://www.puzzel.com/wp-content/uploads/2022/03/uk_12.png" class="first">
+        </div>
+
+        <!-- <div class="showcase">
+            <img src="shapes/ring.png" class="ring">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/circle.png" class="circle2">
+            <img src="shapes/circle.png" class="circle3">
+            <img src="shapes/half-ring.png" class="half-ring"> -->
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2 class="heading">My Services</h2>
+            <span>what i will do for you</span>
+        </div>
+        <div class="fillter-buttons">
+            <button class="button mixitup-control-active" data-filter="all">All Work</button>
+            <button class="button" data-filter=".web">Web Development</button>
+            <button class="button" data-filter=".uiux">UI/UX Design</button>
+            <button class="button" data-filter=".branding">Branding Design</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="https://png.pngtree.com/png-vector/20200312/ourmid/pngtree-modern-flat-design-concept-of-ui-ux-design-with-characters-and-png-image_2157891.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="https://png.pngtree.com/png-vector/20190611/ourmid/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="https://freepngimg.com/thumb/categories/1448.png" alt="">
+                </div>
+            </div>
+
+
+            <div class="portfolio-box mix web">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="https://freepngimg.com/thumb/categories/1448.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix uiux">
+                <div class="portfolio-content">
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="https://cdn3d.iconscout.com/3d/premium/thumb/ux-ui-design-9325214-7629690.png" alt="">
+                </div>
+            </div>
+
+            <div class="portfolio-box mix branding">
+                <div class="portfolio-content">
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, soluta.</p>
+                    <a href="#" class="readMore">Explore More</a>
+                </div>
+                <div class="portfolio-img">
+                    <img src="https://cdni.iconscout.com/illustration/premium/thumb/female-ui-ux-designer-working-on-application-design-5691607-4759459.png" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="blog" id="blog">
+        <div class="main-text">
+            <h2 class="heading">Blog</h2>
+            <span>Latest News & Post</span>
+        </div>
+
+        <div class="blog-box swiper mySwiper">
+            <div class="cards swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="https://img.freepik.com/free-vector/effective-advertising-technology-landing-page_52683-23469.jpg" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="https://cdn.dribbble.com/userupload/4278157/file/still-107c4dad127a908c707d9b195141cd84.png?resize=400x0" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="https://landingfoliocom.imgix.net/blog/1588392064488_CleanShot20200502at115718png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="https://s3.amazonaws.com/thumbnails.venngage.com/template/f2753fc3-e01d-464e-9e9d-a7df05d6c9fc.png" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="https://cdn.dribbble.com/userupload/11619068/file/original-8c81c9f9a38ff70b254c53596242778e.png?crop=263x0-1703x1080&resize=400x300&vertical=center" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+                <div class="card swiper-slide">
+                    <div class="card-top">
+                        <img src="https://a.storyblok.com/f/47007/2400x1422/b987414b93/app-landing-page-examples.png/m/1440x0" alt="">
+                    </div>
+                    <div class="card-info">
+                        <h2>Mobile App Landing Page</h2>
+                        <span class="date">Sunday, Jan 14, 2023</span>
+                        <p class="excerpt">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, illo.
+                        </p>
+                        <a href="#" class="readMore">Explore More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+
+        <div class="showcase">
+            <!-- <img src="shapes/ring.png" class="ring">
+            <img src="shapes/second-circle.png" class="second-circle">
+            <img src="shapes/circle.png" class="circle">
+            <img src="shapes/half-ring.png" class="half-ring"> -->
+        </div>
+
+    </section>
+
+    <section class="down-box" id="contact">
+        <div class="contactSkills">
+            <div class="contact-info">
+                <div class="main-text">
+                    <h2 class="heading">Contact Me</h2>
+                    <span>get in touch with me</span>
+                </div>
+                <form action="#">
+                    <div class="input-box">
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+                    </div>
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Subject">
+                    <textarea name="#" id="" cols="30" rows="10">
+                    </textarea>
+                    <div class="formBtn">
+                        <button type="submit" class="btn">Send Message</button>
+                    </div>
+                </form>
+            </div>
+            <div class="skills">
+                <div class="container">
+                    <div class="skillBox">
+                        <div class="main-text">
+                            <h2 class="heading">My Skills</h2>
+                            <span>Let Me Help you</span>
+                        </div>
+                        <div class="skill-wrap">
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="89">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    HTML
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="47">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    CSS
+                                </div>
+                            </div>
+
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                            
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="56">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    JavaScript
+                                </div>
+                            </div>
+
+
+                            <div class="skill">
+                                <div class="outer-circle">
+                                    <div class="inner-circle">
+                                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="180px" height="180px">
+                                            <defs>
+                                                <linearGradient id="GradientColor">
+                                                <stop offset="0%" stop-color="#e91e63" />
+                                                <stop offset="100%" stop-color="#673ab7" />
+                                                </linearGradient>
+                                            </defs>
+                                                <circle cx="85" cy="85" r="75" stroke-linecap="round" />
+                                       </svg>
+                                       <h2 class="counter">
+                                        <span data-target="19">0</span>%
+                                       </h2>
+                                    </div>
+                                </div>
+                                <div class="sk-title">
+                                    UI/UX Design
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 by <span>Amaan  Coder</span> || All Right Reservd.</p>
+    </footer>
+
+    <div id="progress">
+        <span id="progress-value">
+            <i class='bx bxs-chevrons-up' ></i>
+        </span>
     </div>
-    </header>
 
-
-
+    <!-- scroll reveal  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- mixitup cdn js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.1/mixitup.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
